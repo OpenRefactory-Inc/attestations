@@ -1,0 +1,1515 @@
+{
+    "_type": "https://in-toto.io/Statement/v1",
+    "subject": [
+        {
+            "name": "github.com/fazledyn-or/pygoat",
+            "version": "2.3.0",
+            "digest": {
+                "sha1": "c11e8429349cc05ff38564d3bf7ef09fb2411874"
+            }
+        }
+    ],
+    "predicateType": "https://in-toto.io/attestation/openrefactory/v0.1",
+    "predicate": [
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/apis.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:34 UTC 2024",
+            "fixerCustomMessageText": "In file: apis.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-1",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>apis.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "apis.py8235708598930856722.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/apis.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:34 UTC 2024",
+            "fixerCustomMessageText": "In file: apis.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-2",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>apis.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "apis.py17511596632681968815.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/apis.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:34 UTC 2024",
+            "fixerCustomMessageText": "In file: apis.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-3",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>apis.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "apis.py10168323067508524397.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/apis.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:34 UTC 2024",
+            "fixerCustomMessageText": "In file: apis.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-4",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>apis.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "apis.py9531486855193044951.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/mitre.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:36 UTC 2024",
+            "fixerCustomMessageText": "In file: mitre.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-5",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>mitre.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "mitre.py7816841278418035128.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": "csrf_transfer_monei",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/mitre.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:36 UTC 2024",
+            "fixerCustomMessageText": "In file: mitre.py, method csrf_transfer_monei Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@authentication_decorator",
+            "fixNo": "SMI-H-6",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>mitre.py</span>, method <span class='function_name'>csrf_transfer_monei</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "mitre.py8096006196065968487.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/mitre.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:36 UTC 2024",
+            "fixerCustomMessageText": "In file: mitre.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-7",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>mitre.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "mitre.py4582596218719690136.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-8",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py942672915565536379.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-9",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py4392808867743974391.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-10",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py7062468329296552189.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-11",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py14103134122958103582.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": "auth_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_failure_lab3 Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@authentication_decorator",
+            "fixNo": "SMI-H-12",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_failure_lab3</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py16923564608679994540.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-13",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py2694459124830058920.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-14",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py10177203892530386488.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-15",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py3143658169259146208.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-16",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py17634184173765009689.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-17",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py5989949677664713108.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-18",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py11018005394041361137.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-19",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py3426036155762602954.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-20",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py10446174341054032513.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-21",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py11270362243193401003.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-22",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "views.py17038532215825531464.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/playground/A9/api.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:53 UTC 2024",
+            "fixerCustomMessageText": "In file: api.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-23",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>api.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "api.py6082679569378277406.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Check CSRF Exempt View",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/playground/A9/archive.py",
+            "fixerCategoryTag": "PyCCEV-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:53 UTC 2024",
+            "fixerCustomMessageText": "In file: archive.py, method null Cross-Site Request Forgery protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "fixerCategory": "Security Misconfiguration Issues",
+            "selectedNode": "@csrf_exempt",
+            "fixNo": "SMI-H-24",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>archive.py</span>, method <span class='function_name'>null</span> <a href='https://owasp.org/www-community/attacks/csrf' target='_blank'>Cross-Site Request Forgery</a> protection is exempted on a view using a decorator. A user of this application may be tricked by an attacker to click on a link or visit a malicious website. iCR removed the decorator responsible for CSRF exemption.",
+            "diffLocations": [
+                "archive.py17735015015181563798.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Verify Signature Properly",
+            "isWarning": "True",
+            "functionName": "csrf_transfer_monei_api",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/mitre.py",
+            "fixerCategoryTag": "PyUSA-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:36 UTC 2024",
+            "fixerCustomMessageText": "In file: mitre.py, method csrf_transfer_monei_api a JSON Web Token (JWT) is not signed with a strong cipher algorithm. This gives attackers the option to impersonate their identities .  iCR suggested that a stronger cipher algorithm (For example, HS256, i.e., HMAC with SHA-256) should be used.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "jwt.decode(cookie, 'csrf_vulneribility', algorithms=['HS256'], options={\"verify_signature\": True})",
+            "fixNo": "WCI-H-1",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>mitre.py</span>, method <span class='function_name'>csrf_transfer_monei_api</span> a JSON Web Token (JWT) is not signed with a strong cipher algorithm. This gives attackers the option to <a href='https://cwe.mitre.org/data/definitions/347.html' target='_blank'>impersonate their identities </a>.  iCR suggested that a stronger cipher algorithm (For example, HS256, i.e., HMAC with SHA-256) should be used.",
+            "diffLocations": [
+                "mitre.py10284163444506672886.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Verify Signature Properly",
+            "isWarning": "True",
+            "functionName": "csrf_transfer_monei",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/mitre.py",
+            "fixerCategoryTag": "PyUSA-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:36 UTC 2024",
+            "fixerCustomMessageText": "In file: mitre.py, method csrf_transfer_monei a JSON Web Token (JWT) is not signed with a strong cipher algorithm. This gives attackers the option to impersonate their identities .  iCR suggested that a stronger cipher algorithm (For example, HS256, i.e., HMAC with SHA-256) should be used.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "jwt.decode(cookie, 'csrf_vulneribility', algorithms=['HS256'], options={\"verify_signature\": True})",
+            "fixNo": "WCI-H-2",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>mitre.py</span>, method <span class='function_name'>csrf_transfer_monei</span> a JSON Web Token (JWT) is not signed with a strong cipher algorithm. This gives attackers the option to <a href='https://cwe.mitre.org/data/definitions/347.html' target='_blank'>impersonate their identities </a>.  iCR suggested that a stronger cipher algorithm (For example, HS256, i.e., HMAC with SHA-256) should be used.",
+            "diffLocations": [
+                "mitre.py14026671428852051258.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Verify Signature Properly",
+            "isWarning": "True",
+            "functionName": "sec_misconfig_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-1",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method sec_misconfig_lab3 a JSON Web Token (JWT) is not signed with a strong cipher algorithm. This gives attackers the option to impersonate their identities .  iCR suggested that a stronger cipher algorithm (For example, HS256, i.e., HMAC with SHA-256) should be used.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "jwt.decode(cookie, SECRET_COOKIE_KEY, algorithms=['HS256'], options={\"verify_signature\": True})",
+            "fixNo": "WCI-H-3",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>sec_misconfig_lab3</span> a JSON Web Token (JWT) is not signed with a strong cipher algorithm. This gives attackers the option to <a href='https://cwe.mitre.org/data/definitions/347.html' target='_blank'>impersonate their identities </a>.  iCR suggested that a stronger cipher algorithm (For example, HS256, i.e., HMAC with SHA-256) should be used.",
+            "diffLocations": [
+                "views.py4764335504620449864.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "csrf_lab_login",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/mitre.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:36 UTC 2024",
+            "fixerCustomMessageText": "In file: mitre.py, method csrf_lab_login a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie('auth_cookiee', cookie)",
+            "fixNo": "WCI-H-4",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>mitre.py</span>, method <span class='function_name'>csrf_lab_login</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "mitre.py18087736914026769062.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "a1_broken_access_lab_1",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method a1_broken_access_lab_1 a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "html.set_cookie(\"admin\", \"0\",max_age=200)",
+            "fixNo": "WCI-H-5",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>a1_broken_access_lab_1</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py5434218216744558346.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "ba_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method ba_lab a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "html.set_cookie(\"admin\", \"1\",max_age=200)",
+            "fixNo": "WCI-H-6",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>ba_lab</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py567342535721260181.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "auth_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_failure_lab3 a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie(\"session_id\", token)",
+            "fixNo": "WCI-H-7",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_failure_lab3</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py5686024685612570416.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "auth_lab_login",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_login a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie('userid', obj.userid, max_age=31449600, samesite=None, secure=False)",
+            "fixNo": "WCI-H-8",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_login</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py5328680523263356408.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "Otp",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method Otp a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "html.set_cookie(\"email\", email)",
+            "fixNo": "WCI-H-9",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>Otp</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py12473433609901459188.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "Otp",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method Otp a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "html.set_cookie(\"email\",email)",
+            "fixNo": "WCI-H-10",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>Otp</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py18361778804662656291.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "sec_misconfig_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method sec_misconfig_lab3 a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie(key = \"auth_cookie\", value = cookie)",
+            "fixNo": "WCI-H-11",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>sec_misconfig_lab3</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py8135462341433540907.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "insec_des_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method insec_des_lab a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie(key='token',value=token.decode('utf-8'))",
+            "fixNo": "WCI-H-12",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>insec_des_lab</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py4364160565131444893.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "ba_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method ba_lab a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "html.set_cookie(\"admin\", \"0\",max_age=200)",
+            "fixNo": "WCI-H-13",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>ba_lab</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py10044254328695751803.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "crypto_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method crypto_failure_lab3 a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie(\"cookie\", None)",
+            "fixNo": "WCI-H-14",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>crypto_failure_lab3</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py17306010734630037624.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "auth_lab_signup",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_signup a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie('userid', obj.userid, max_age=31449600, samesite=None, secure=False)",
+            "fixNo": "WCI-H-15",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_signup</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py9925857976176960706.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "auth_lab_login",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_login a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie('userid', obj.userid, max_age=31449600, samesite=None, secure=False)",
+            "fixNo": "WCI-H-16",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_login</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py2897946660303781585.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "crypto_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method crypto_failure_lab3 a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie(\"cookie\", cookie)",
+            "fixNo": "WCI-H-17",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>crypto_failure_lab3</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py7829447199858358780.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Protect Session Cookies",
+            "isWarning": "True",
+            "functionName": "auth_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-11",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_failure_lab3 a cookie is configured with the default value of HttpOnly to be false. The cookie is also sent by a browser over an unencrypted HTTP request. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "fixerCategory": "Weak Cryptography Issues",
+            "selectedNode": "response.set_cookie(\"session_id\", None)",
+            "fixNo": "WCI-H-18",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_failure_lab3</span> a cookie is configured with the <a href='https://cwe.mitre.org/data/definitions/1004.html' target='_blank'>default value of HttpOnly to be false</a>. The cookie is also sent by a browser over an <a href='https://cwe.mitre.org/data/definitions/614.html' target='_blank'>unencrypted HTTP request</a>. This enables attackers to steal cookies by launching Cross-Site Scripting and Man-in-the-middle attacks. iCR suggested that the cookie is properly configured with the HttpOnly attribute is set properly and it is sent over HTTPS communication only.",
+            "diffLocations": [
+                "views.py16577173913998258183.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Set Request Timeout",
+            "isWarning": "True",
+            "functionName": "ssrf_lab2",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-22",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method ssrf_lab2 a request is made without a timeout parameter. If the recipient server is unavailable to service the request, application making the request may stall indefinitely. iCR suggested that a timeout value should be specified.",
+            "fixerCategory": "API Usage Issues",
+            "selectedNode": "requests.get(url)",
+            "fixNo": "AUI-H-1",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>ssrf_lab2</span> a request is made without a timeout parameter. If the recipient server is unavailable to service the request, <a href='https://docs.python-requests.org/en/master/user/advanced/#timeouts' target='_blank'>application making the request may stall indefinitely</a>. iCR suggested that a timeout value should be specified.",
+            "diffLocations": [
+                "views.py12339897301897351572.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Set Request Timeout",
+            "isWarning": "True",
+            "functionName": "check_vuln",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/playground/A6/soln.py",
+            "fixerCategoryTag": "PyUSA-22",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:52 UTC 2024",
+            "fixerCustomMessageText": "In file: soln.py, method check_vuln a request is made without a timeout parameter. If the recipient server is unavailable to service the request, application making the request may stall indefinitely. iCR suggested that a timeout value should be specified.",
+            "fixerCategory": "API Usage Issues",
+            "selectedNode": "requests.get(url)",
+            "fixNo": "AUI-H-2",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>soln.py</span>, method <span class='function_name'>check_vuln</span> a request is made without a timeout parameter. If the recipient server is unavailable to service the request, <a href='https://docs.python-requests.org/en/master/user/advanced/#timeouts' target='_blank'>application making the request may stall indefinitely</a>. iCR suggested that a timeout value should be specified.",
+            "diffLocations": [
+                "soln.py2582069645909498847.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Set Request Timeout",
+            "isWarning": "True",
+            "functionName": "check_vuln",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/playground/A6/utility.py",
+            "fixerCategoryTag": "PyUSA-22",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:52 UTC 2024",
+            "fixerCustomMessageText": "In file: utility.py, method check_vuln a request is made without a timeout parameter. If the recipient server is unavailable to service the request, application making the request may stall indefinitely. iCR suggested that a timeout value should be specified.",
+            "fixerCategory": "API Usage Issues",
+            "selectedNode": "requests.get(url)",
+            "fixNo": "AUI-H-3",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>utility.py</span>, method <span class='function_name'>check_vuln</span> a request is made without a timeout parameter. If the recipient server is unavailable to service the request, <a href='https://docs.python-requests.org/en/master/user/advanced/#timeouts' target='_blank'>application making the request may stall indefinitely</a>. iCR suggested that a timeout value should be specified.",
+            "diffLocations": [
+                "utility.py14009080189732835831.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Prevent XML eXternal Entity",
+            "isWarning": "False",
+            "functionName": "xxe_parse",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PyUSA-29",
+            "className": null,
+            "priority": "H",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, the application parses XML allowing access to the Document Type Definition (DTD) external entity.  This can lead to CWE-611. iCR explicitly disables the access to the external entity. See more information in CWE-827,XXE attacks.",
+            "fixerCategory": "Security Misconfiguration",
+            "selectedNode": "parser.setFeature(feature_external_ges, state=False)",
+            "fixNo": "SMI-H-1",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, the application parses XML allowing access to the Document Type Definition (DTD) external entity.  This can lead to <a href='https://cwe.mitre.org/data/definitions/611.html' target='_blank'>CWE-611</a>. iCR explicitly disables the access to the external entity. See more information in <a href='https://cwe.mitre.org/data/definitions/827.html' target='_blank'>CWE-827</a>,<a href='https://en.wikipedia.org/wiki/XML_external_entity_attack' target='_blank'>XXE attacks</a>.",
+            "diffLocations": [
+                "views.py3740620823500834621.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "A6_disscussion_api_2",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/apis.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:34 UTC 2024",
+            "fixerCustomMessageText": "In file: apis.py, method A6_disscussion_api_2 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n        return JsonResponse({\"message\":\"missing code\"},status = 400)",
+            "fixNo": "EH-M-1",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>apis.py</span>, method <span class='function_name'>A6_disscussion_api_2</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "apis.py4331277185362224090.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "A7_disscussion_api",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/apis.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:34 UTC 2024",
+            "fixerCustomMessageText": "In file: apis.py, method A7_disscussion_api an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n        return JsonResponse({\"message\":\"missing code\"},status = 400)",
+            "fixNo": "EH-M-2",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>apis.py</span>, method <span class='function_name'>A7_disscussion_api</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "apis.py4193994601543208554.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "csrf_transfer_monei",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/mitre.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:36 UTC 2024",
+            "fixerCustomMessageText": "In file: mitre.py, method csrf_transfer_monei an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            return redirect('/mitre/9/lab/login')",
+            "fixNo": "EH-M-3",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>mitre.py</span>, method <span class='function_name'>csrf_transfer_monei</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "mitre.py14762944740346225607.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "sec_misconfig_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method sec_misconfig_lab3 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n        payload = {\n            'user':'not_admin',\n            'exp': datetime.datetime.utcnow() + datetime.timedelta(minutes=60),\n            'iat': datetime.datetime.utcnow(),\n        }\n\n        cookie = jwt.encode(payload, SECRET_COOKIE_KEY, algorithm='HS256')\n        response = render(request,\"Lab/sec_mis/sec_mis_lab3.html\", {\"admin\":False} )\n        response.set_cookie(key = \"auth_cookie\", value = cookie)\n        return response",
+            "fixNo": "EH-M-4",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>sec_misconfig_lab3</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py4601961508991032376.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "ssrf_lab2",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method ssrf_lab2 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            return render(request, \"Lab/ssrf/ssrf_lab2.html\", {\"error\": \"Invalid URL\"})",
+            "fixNo": "EH-M-5",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>ssrf_lab2</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py4103915477549623854.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_lab_login",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_login an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                render(request,'Lab/AUTH/auth_lab_login.html',{'err_msg':'Cookie cannot be set'})",
+            "fixNo": "EH-M-6",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_login</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py4143062119491108491.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "insec_desgine_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method insec_desgine_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                try :\n                    tickit = request.POST.get(\"ticket\")\n                    all_tickets = tickits.objects.all()\n                    sold_tickets = len(all_tickets)\n                    if sold_tickets <60:\n                        return render(request,\"Lab/A11/a11_lab.html\", {\"error\": \"Invalid tickit\",\"tickets\":Tickets,\"error\":f\"Wait until all tickets are sold ({60-sold_tickets} tickets left)\"})\n                    else:\n                        if tickit in Tickets:\n                            return render(request,\"Lab/A11/a11_lab.html\", {\"error\": \"Congratulation,You figured out the flaw in Design.<br> A better authentication should be used in case for checking the uniqueness of a user.\",\"tickets\":Tickets})\n                        else:\n                            return render(request,\"Lab/A11/a11_lab.html\",{\"tickets\":Tickets,\"error\": \"Invalid ticket\"},)\n                except:\n                    return render(request,\"Lab/A11/a11_lab.html\",{\"tickets\":Tickets})",
+            "fixNo": "EH-M-7",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>insec_desgine_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py7125604000018899623.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "injection_sql_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method injection_sql_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                return render(\n                    request, \n                    'Lab_2021/A3_Injection/sql_lab.html',\n                    {\n                        \"wrongpass\":password,\n                        \"sql_error\":sql_query\n                    })",
+            "fixNo": "EH-M-8",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>injection_sql_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py4709139495484792106.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "insec_desgine_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method insec_desgine_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                    return render(request,\"Lab/A11/a11_lab.html\",{\"tickets\":Tickets})",
+            "fixNo": "EH-M-9",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>insec_desgine_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py17777590241397137984.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "ssrf_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method ssrf_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                return render(request, \"Lab/ssrf/ssrf_lab.html\", {\"blog\": \"No blog found\"})",
+            "fixNo": "EH-M-10",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>ssrf_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py2194125045453383132.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "software_and_data_integrity_failure_lab2",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method software_and_data_integrity_failure_lab2 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            return render(request,\"Lab_2021/A8_software_and_data_integrity_failure/lab2.html\")",
+            "fixNo": "EH-M-11",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>software_and_data_integrity_failure_lab2</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py1854781324684984770.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_lab_signup",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_signup an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            return render(request,'Lab/AUTH/auth_lab_signup.html',{'err_msg':'Username already exists'})",
+            "fixNo": "EH-M-12",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_signup</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py36105580406731426.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "a9_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method a9_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                return render(request, \"Lab/A9/a9_lab.html\", {\"data\":\"Please Upload a Yaml file.\"})",
+            "fixNo": "EH-M-13",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>a9_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py14882460460970905433.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "a9_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method a9_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                    return render(request, \"Lab/A9/a9_lab.html\", {\"data\": \"Error\"})",
+            "fixNo": "EH-M-14",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>a9_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py10939700898179817994.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "sql_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method sql_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                    print(\"\\nin except\\n\")\n                    return render(\n                        request, \n                        'Lab/SQL/sql_lab.html',\n                        {\n                            \"wrongpass\":password,\n                            \"sql_error\":sql_query\n                        })",
+            "fixNo": "EH-M-15",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>sql_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py8201252275846111538.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_failure_lab3 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            pass",
+            "fixNo": "EH-M-16",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_failure_lab3</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py2375401778130779261.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_lab_login",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_login an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            return render(request,'Lab/AUTH/auth_lab_login.html',{'err_msg':'Check your credentials'})",
+            "fixNo": "EH-M-17",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_login</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py11366019854227199451.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "crypto_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method crypto_failure_lab3 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                return render(request,\"Lab_2021/A2_Crypto_failur/crypto_failure_lab2.html\",{\"success\":False, \"failure\":True})",
+            "fixNo": "EH-M-18",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>crypto_failure_lab3</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py15963543264117198037.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "crypto_failure_lab2",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method crypto_failure_lab2 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                return render(request,\"Lab_2021/A2_Crypto_failur/crypto_failure_lab2.html\",{\"success\":False, \"failure\":True})",
+            "fixNo": "EH-M-19",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>crypto_failure_lab2</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py7267185078222645016.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_failure_lab2",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_failure_lab2 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                # fail attempt\n                print(\"wrong password\")\n                fail_attempt = user.failattempt + 1\n                if fail_attempt == 5:\n                    user.is_active = False\n                    user.failattempt = 0\n                    user.is_locked = True\n                    user.lockout_cooldown = datetime.datetime.now() + datetime.timedelta(minutes=1440)\n                    user.save()\n                    return render(request,\"Lab_2021/A7_auth_failure/lab2.html\", {\"user\":user, \"success\":False,\"failure\":True, \"is_locked\":True})\n                user.failattempt = fail_attempt\n                user.save()\n                return render(request,\"Lab_2021/A7_auth_failure/lab2.html\",{\"success\":False, \"failure\":True})",
+            "fixNo": "EH-M-20",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_failure_lab2</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py8516142440663897369.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_lab_signup",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_signup an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                render(request,'Lab/AUTH/auth_lab_signup.html',{'err_msg':'Cookie cannot be set'})",
+            "fixNo": "EH-M-21",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_signup</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py2930399602062678097.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "cmd_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method cmd_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                output = \"Something went wrong\"\n                return render(request,'Lab/CMD/cmd_lab.html',{\"output\":output})",
+            "fixNo": "EH-M-22",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>cmd_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py10427003198941261639.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "crypto_failure_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method crypto_failure_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                return render(request,\"Lab_2021/A2_Crypto_failur/crypto_failure_lab.html\",{\"success\":False, \"failure\":True})",
+            "fixNo": "EH-M-23",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>crypto_failure_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py14977830525774392620.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "cmd_lab2",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method cmd_lab2 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n                output = \"Something went wrong\"\n                return render(request,'Lab/CMD/cmd_lab2.html',{\"output\":output})",
+            "fixNo": "EH-M-24",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>cmd_lab2</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py14493877917254564985.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_lab_login",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_lab_login an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            return render(request,'Lab/AUTH/auth_lab_login.html')",
+            "fixNo": "EH-M-25",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_lab_login</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py12444977057645596871.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "auth_failure_lab3",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/views.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:51 UTC 2024",
+            "fixerCustomMessageText": "In file: views.py, method auth_failure_lab3 an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n            response = render(request, \"Lab_2021/A7_auth_failure/lab3.html\")\n            response.set_cookie(\"session_id\", None)\n            return response",
+            "fixNo": "EH-M-26",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>views.py</span>, method <span class='function_name'>auth_failure_lab3</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "views.py16583585173963030646.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Raise Custom Exceptions",
+            "isWarning": "True",
+            "functionName": "ssrf_lab",
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/playground/ssrf/main.py",
+            "fixerCategoryTag": "PySEH-3",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:53 UTC 2024",
+            "fixerCustomMessageText": "In file: main.py, method ssrf_lab an {Exception} or a {BaseException} was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for raising exception.",
+            "fixerCategory": "Error Handling",
+            "selectedNode": "except:\n        return {\"blog\": \"No blog found\"}",
+            "fixNo": "EH-M-27",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>main.py</span>, method <span class='function_name'>ssrf_lab</span> an <span class='key-word'>Exception</span> or a <span class='key-word'>BaseException</span> was raised. This creates confusion since the exceptions are then differentiated only by the messages they carry. iCR suggested that a specific built-in exception or a custom exception is raised. For more information, read the Python guideline for <a href='https://www.python.org/dev/peps/pep-0352/' target='_blank'>raising exception</a>.",
+            "diffLocations": [
+                "main.py205481646456683922.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Avoid Wildcard Imports",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/apis.py",
+            "fixerCategoryTag": "PyCSI-1",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:34 UTC 2024",
+            "fixerCustomMessageText": "In file: apis.py, a module is imported using the wildcard symbol. This will import public name from this module and can create conflicts in the local namespace. iCR suggested that wildcard imports should be avoided.",
+            "fixerCategory": "Inappropriate Logic",
+            "selectedNode": "from django.http import JsonResponse\nfrom django.shortcuts import redirect\nfrom introduction.playground.ssrf import main\nfrom introduction.playground.A9.main import Log\nfrom introduction.playground.A6.utility import check_vuln\nfrom django.contrib.auth import login,authenticate\n# OpenRefactory Warning: Importing every public name using star import should be avoided.\nfrom .utility import *\nfrom django.views.decorators.csrf import csrf_exempt\nimport time\nfrom .views import authentication_decorator\nimport requests\n# steps --> \n# 1. covert input code to corrosponding code and write in file\n# 2. extract inputs form 2nd code \n# 3. Run the code \n# 4. get the result\n@csrf_exempt\ndef ssrf_code_checker(request):\n    if request.user.is_authenticated:\n        if request.method == 'POST':\n            python_code = request.POST['python_code']\n            html_code = request.POST['html_code']\n            if not (ssrf_code_converter(python_code)):\n                return JsonResponse({\"status\": \"error\", \"message\": \"Invalid code\"})\n            test_bench1 = ssrf_html_input_extractor(html_code)\n            \n            if (len(test_bench1) >4):\n                return JsonResponse({'message':'too many inputs in Html\\n Try again'},status = 400)\n            test_bench2 = ['secret.txt']\n            correct_output1 = [{\"blog\": \"blog1-passed\"}, {\"blog\": \"blog2-passed\"}, {\"blog\": \"blog3-passed\"}, {\"blog\": \"blog4-passed\"}]\n            outputs = []\n            for inputs in test_bench1:\n                outputs.append(main.ssrf_lab(inputs))\n            if outputs == correct_output1:\n                outputs = []\n            else:\n                return JsonResponse({'message':'Testbench failed, Code is not working\\n Try again'},status = 200)\n\n            correct_output2 = [{\"blog\": \"No blog found\"}]\n            for inputs in test_bench2:\n                outputs.append(main.ssrf_lab(inputs))\n            if outputs == correct_output2:\n                return JsonResponse({'message':'Congratulation, you have written a secure code.', 'passed':1}, status = 200)\n            \n            return JsonResponse({'message':'Test bench passed but the code is not secure'}, status = 200,safe = False)\n        else:\n            return JsonResponse({'message':'method not allowed'},status = 405)\n    else:\n        return JsonResponse({'message':'UnAuthenticated User'},status = 401)\n\n# Insufficient Logging & Monitoring\n\n\n@csrf_exempt\n# @authentication_decorator\ndef log_function_checker(request):\n    if request.method == 'POST':\n        csrf_token = request.POST.get(\"csrfmiddlewaretoken\")\n        log_code = request.POST.get('log_code')\n        api_code = request.POST.get('api_code')\n        dirname = os.path.dirname(__file__)\n        log_filename = os.path.join(dirname, \"playground/A9/main.py\")\n        api_filename = os.path.join(dirname, \"playground/A9/api.py\")\n        f = open(log_filename,\"w\")\n        f.write(log_code)\n        f.close()\n        f = open(api_filename,\"w\")\n        f.write(api_code)\n        f.close()\n        # Clearing the log file before starting the test\n        f = open('test.log', 'w')\n        f.write(\"\")\n        f.close()\n        url = \"http://127.0.0.1:8000/2021/discussion/A9/target\"\n        payload={'csrfmiddlewaretoken': csrf_token }\n        requests.request(\"GET\", url)\n        requests.request(\"POST\", url)\n        requests.request(\"PATCH\", url, data=payload)\n        requests.request(\"DELETE\", url)\n        f = open('test.log', 'r')\n        lines = f.readlines()\n        f.close()\n        return JsonResponse({\"message\":\"success\", \"logs\": lines},status = 200)\n    else:\n        return JsonResponse({\"message\":\"method not allowed\"},status = 405)\n\n#a7 codechecking api\n@csrf_exempt\ndef A7_disscussion_api(request):\n    if request.method != 'POST':\n        return JsonResponse({\"message\":\"method not allowed\"},status = 405)\n\n    try:\n        code = request.POST.get('code')\n    except:\n        return JsonResponse({\"message\":\"missing code\"},status = 400)\n\n    search_snipet = \"AF_session_id.objects.get(sesssion_id = cookie).delete()\"\n    search_snipet2 = \"AF_session_id.objects.get(sesssion_id=cookie).delete()\"\n\n    if (search_snipet in code) or (search_snipet2 in code):\n        return JsonResponse({\"message\":\"success\"},status = 200)\n\n    return JsonResponse({\"message\":\"failure\"},status = 400)\n\n#a6 codechecking api\n@csrf_exempt\ndef A6_disscussion_api(request):\n    test_bench = [\"Pillow==8.0.0\",\"PyJWT==2.4.0\",\"requests==2.28.0\",\"Django==4.0.4\"]\n    \n    try:\n        result = check_vuln(test_bench)\n        print(len(result))\n        if result:\n            return JsonResponse({\"message\":\"success\",\"vulns\":result},status = 200)\n        return JsonResponse({\"message\":\"failure\"},status = 400)\n    except Exception as e:\n        return JsonResponse({\"message\":\"failure\"},status = 400)\n\n@csrf_exempt\ndef A6_disscussion_api_2(request):\n    if request.method != 'POST':\n        return JsonResponse({\"message\":\"method not allowed\"},status = 405)\n    try:\n        code = request.POST.get('code')\n        dirname = os.path.dirname(__file__)\n        filename = os.path.join(dirname, \"playground/A6/utility.py\")\n        f = open(filename,\"w\")\n        f.write(code)\n        f.close()\n    except:\n        return JsonResponse({\"message\":\"missing code\"},status = 400)\n    return JsonResponse({\"message\":\"success\"},status = 200)",
+            "fixNo": "IL-M-1",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>apis.py</span>, a module is imported using the wildcard symbol. This will import <a href='https://docs.python.org/3.8/reference/simple_stmts.html#import' target='_blank'>public name from this module</a> and can create conflicts in the local namespace. iCR suggested that wildcard imports should be avoided.",
+            "diffLocations": [
+                "apis.py712899803934203206.diff"
+            ]
+        },
+        {
+            "fixerCustomHeading": "Avoid Wildcard Imports",
+            "isWarning": "True",
+            "functionName": null,
+            "projectPath": "/workspace/source/",
+            "filePath": "/workspace/source/introduction/utility.py",
+            "fixerCategoryTag": "PyCSI-1",
+            "className": null,
+            "priority": "M",
+            "scanDate": "Tue Feb 20 08:07:54 UTC 2024",
+            "fixerCustomMessageText": "In file: utility.py, a module is imported using the wildcard symbol. This will import public name from this module and can create conflicts in the local namespace. iCR suggested that wildcard imports should be avoided.",
+            "fixerCategory": "Inappropriate Logic",
+            "selectedNode": "import os\nimport uuid\n# OpenRefactory Warning: Importing every public name using star import should be avoided.\nfrom .models import *\nimport hashlib\n# import re\ndef ssrf_code_converter(code):\n    list_input = code.split(\"\\n\")\n    del_l = []\n    for i in range(len(list_input)):\n        if list_input[i].strip() == '':\n            del_l.append(list_input[i])\n    for l in del_l:\n        list_input.remove(l)\n    list_output = ['import os','def ssrf_lab(file):','    try:']\n    extracted_code = []\n    i = 7\n    while i < (len(list_input)-2):\n        extracted_code.append(list_input[i][8:])\n        i += 1\n\n    for i in range(len(extracted_code)):\n        if extracted_code[i].strip()[:6] == 'return':\n            space = extracted_code[i].split('return')[0]\n            k = extracted_code[i].split('{')[1].split('}')[0]\n            extracted_code[i] = space + \"return {\"+k+\"}\"\n    \n    list_output= list_output + extracted_code\n    output_Code = \"\\n\".join(list_output)\n\n    dirname = os.path.dirname(__file__)\n    filename = os.path.join(dirname, \"playground/ssrf/main.py\")\n    f = open(filename,\"w\")\n    f.write(output_Code)\n    f.close()\n    return 1\n\n# ssrf_code_converter(input_code)\ndef ssrf_html_input_extractor(code):\n    params = []\n    list_input = code.split(\"\\n\")\n    tokens = list(map(lambda x : x.strip().split(' '), list_input))\n    for i in range(len(tokens)):\n        if tokens[i][0] == '<input':\n            for j in range(len(tokens[i])):\n                if tokens[i][j][:7] == 'value=\"':\n                    params.append(tokens[i][j][7:-2])\n    return params\n\ndef unique_id_generator():\n    id = str(uuid.uuid4()).split('-')[-1]\n\ndef filter_blog(code):\n    return code\n\ndef customHash(password):\n    return hashlib.sha256(password.encode()).hexdigest()[::-1]",
+            "fixNo": "IL-M-2",
+            "relatedSourceLocations": null,
+            "fixerCustomMessage": "In file: <span class='original_filename'>utility.py</span>, a module is imported using the wildcard symbol. This will import <a href='https://docs.python.org/3.8/reference/simple_stmts.html#import' target='_blank'>public name from this module</a> and can create conflicts in the local namespace. iCR suggested that wildcard imports should be avoided.",
+            "diffLocations": [
+                "utility.py923846246285690871.diff"
+            ]
+        }
+    ]
+}
