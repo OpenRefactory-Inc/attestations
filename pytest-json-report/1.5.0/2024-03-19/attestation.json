@@ -1,39 +1,39 @@
 {
-  "_type": "https://in-toto.io/Statement/v0.1",
-  "predicateType": "https://cosign.sigstore.dev/attestation/vuln/v1",
-  "subject": [
-    {
-      "name": "v1.5.0.zip",
-      "digest": {
-        "sha256": "fdaf233f9bdc4c5e1234b95596e65a64c73e37e350a4fcc1698ee121799efb77"
-      }
-    }
-  ],
-  "predicate": {
-    "invocation": {
-      "parameters": null,
-      "uri": "",
-      "event_id": "",
-      "builder.id": ""
-    },
-    "scanner": {
-      "uri": "https://www.openrefactory.com/",
-      "version": "1.0.0",
-      "db": {
-        "uri": "",
-        "version": ""
-      },
-      "result": {
-        "bugs": [],
-        "summary": {
-          "message": "This work is done by the security researchers from OpenRefactory and is supported by the Open Source Security Foundation's Project Alpha-Omega. The bug is found by running the Intelligent Code Repair (iCR) tool by OpenRefactory and then manually triaging the results.",
-          "totalBugs": 0
+    "_type": "https://in-toto.io/Statement/v0.1",
+    "predicateType": "https://cosign.sigstore.dev/attestation/vuln/v1",
+    "subject": [
+        {
+            "name": "v1.5.0.zip",
+            "digest": {
+                "sha256": "fdaf233f9bdc4c5e1234b95596e65a64c73e37e350a4fcc1698ee121799efb77"
+            }
         }
-      }
-    },
-    "metadata": {
-      "scanStartedOn": "2024-03-19T17:35:55.442Z",
-      "scanFinishedOn": "2024-03-19T12:41:28.28Z"
+    ],
+    "predicate": {
+        "invocation": {
+            "parameters": null,
+            "uri": "",
+            "event_id": "",
+            "builder.id": ""
+        },
+        "scanner": {
+            "uri": "https://www.openrefactory.com/",
+            "version": "1.0.0",
+            "db": {
+                "uri": "",
+                "version": ""
+            },
+            "result": {
+                "bugs": [],
+                "summary": {
+                    "message": "This work is done by the security researchers from OpenRefactory and is supported by the Open Source Security Foundation's Project Alpha-Omega. The bug is found by running the Intelligent Code Repair (iCR) tool by OpenRefactory and then manually triaging the results.",
+                    "totalBugs": 0
+                }
+            }
+        },
+        "metadata": {
+            "scanStartedOn": "2024-03-19T17:35:55.442Z",
+            "scanFinishedOn": "2024-03-19T12:43:13.804Z"
+        }
     }
-  }
 }
