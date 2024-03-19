@@ -1,0 +1,19 @@
+{
+  "invocation": {},
+  "scanner": {
+    "uri": "https://www.openrefactory.com/",
+    "version": "1.0.0",
+    "db": {},
+    "result": {
+      "summary": {
+        "message": "This work is done by the security researchers from OpenRefactory and is supported by the Open Source Security Foundation's Project Alpha-Omega. The bug is found by running the Intelligent Code Repair (iCR) tool by OpenRefactory and then manually triaging the results.",
+        "totalBugs": 0
+      },
+      "bugs": []
+    }
+  },
+  "metadata": {
+    "scanStartedOn": "2024-03-19T17:35:55.442Z",
+    "scanFinishedOn": "2024-03-19T12:37:57.610Z"
+  }
+}
