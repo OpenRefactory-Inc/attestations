@@ -1,0 +1,39 @@
+{
+    "_type": "https://in-toto.io/Statement/v0.1",
+    "predicateType": "https://cosign.sigstore.dev/attestation/vuln/v1",
+    "subject": [
+        {
+            "name": "6.0.zip",
+            "digest": {
+                "sha256": "ab5a9bc8aa7ffb3bd686cc5480c45d919bc2fa011a0623ca359997a1e7a75fbe"
+            }
+        }
+    ],
+    "predicate": {
+        "invocation": {
+            "parameters": null,
+            "uri": "",
+            "event_id": "",
+            "builder.id": ""
+        },
+        "scanner": {
+            "uri": "https://www.openrefactory.com/",
+            "version": "1.0.0",
+            "db": {
+                "uri": "",
+                "version": ""
+            },
+            "result": {
+                "bugs": [],
+                "summary": {
+                    "message": "This work is done by the security researchers from OpenRefactory and is supported by the Open Source Security Foundation's Project Alpha-Omega. The bug is found by running the Intelligent Code Repair (iCR) tool by OpenRefactory and then manually triaging the results.",
+                    "totalBugs": 0
+                }
+            }
+        },
+        "metadata": {
+            "scanStartedOn": "2024-03-22T21:45:18.741Z",
+            "scanFinishedOn": "2024-03-22T21:52:38.803Z"
+        }
+    }
+}
