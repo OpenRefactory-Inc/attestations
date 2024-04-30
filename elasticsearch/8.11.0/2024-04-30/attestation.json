@@ -1,0 +1,84 @@
+{
+    "_type": "https://in-toto.io/Statement/v0.1",
+    "predicateType": "https://cosign.sigstore.dev/attestation/vuln/v1",
+    "subject": [
+        {
+            "name": "v8.11.0.zip",
+            "digest": {
+                "sha256": "06590aca079d880606dab3b7b4e4d25f01bdec80f3637d239ca37e94f3d6b08d"
+            }
+        }
+    ],
+    "predicate": {
+        "invocation": {
+            "parameters": [],
+            "uri": "",
+            "event_id": "",
+            "builder.id": ""
+        },
+        "scanner": {
+            "uri": "https://www.openrefactory.com/technology/",
+            "version": "1.0.0",
+            "db": {
+                "uri": "",
+                "version": ""
+            },
+            "result": {
+                "metadata": {
+                    "attestation_text": "This document attests that the project mentioned above has been scanned and triaged by OpenRefactory while looking for specific CWEs mentioned above. A total of 0 bugs/vulnerabilities was found.",
+                    "language": "python",
+                    "sponsorship_text": "This work is done by the security researchers from OpenRefactory and is supported by the 'Open Source Security Foundation's Project 'Alpha-Omega'. 'Alpha-Omega' is a project partnering with open source software project maintainers to systematically find new, as-yet-undiscovered vulnerabilities in open source code- and get them fixed to improve global software supply chain security.",
+                    "target_cwes": [
+                        "CWE-22",
+                        "CWE-78",
+                        "CWE-79",
+                        "CWE-89",
+                        "CWE-90",
+                        "CWE-95",
+                        "CWE-113",
+                        "CWE-117",
+                        "CWE-200",
+                        "CWE-259",
+                        "CWE-283",
+                        "CWE-295",
+                        "CWE-297",
+                        "CWE-319",
+                        "CWE-327",
+                        "CWE-329",
+                        "CWE-346",
+                        "CWE-347",
+                        "CWE-409",
+                        "CWE-502",
+                        "CWE-521",
+                        "CWE 547",
+                        "CWE-601",
+                        "CWE-611",
+                        "CWE-614",
+                        "CWE-643",
+                        "CWE-732",
+                        "CWE-759",
+                        "CWE-760",
+                        "CWE-827",
+                        "CWE-918",
+                        "CWE-1004",
+                        "CWE-1333",
+                        "CWE-1240"
+                    ]
+                },
+                "results": [],
+                "source": {
+                    "name": "elasticsearch",
+                    "pypi_uri": "https://pypi.org/project/elasticsearch",
+                    "pypi_version_uri": "https://pypi.org/project/elasticsearch/8.11.0",
+                    "repo_uri": "https://github.com/elastic/elasticsearch-py",
+                    "repo_version_uri": "https://github.com/elastic/elasticsearch-py/tree/v8.11.0",
+                    "version": "8.11.0"
+                }
+            }
+        },
+        "metadata": {
+            "scanStartedOn": "2024-04-30T16:57:06.806Z",
+            "scanFinishedOn": "2024-04-30T17:37:30.88Z"
+        }
+    }
+}
