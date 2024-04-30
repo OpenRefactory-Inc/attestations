@@ -1,0 +1,84 @@
+{
+    "_type": "https://in-toto.io/Statement/v0.1",
+    "predicateType": "https://cosign.sigstore.dev/attestation/vuln/v1",
+    "subject": [
+        {
+            "name": "1.30.1.zip",
+            "digest": {
+                "sha256": "ebf084b1d358e2df8323761e57e3b08116b21dad3291ceedeb7aef4e08579bce"
+            }
+        }
+    ],
+    "predicate": {
+        "invocation": {
+            "parameters": [],
+            "uri": "",
+            "event_id": "",
+            "builder.id": ""
+        },
+        "scanner": {
+            "uri": "https://www.openrefactory.com/technology/",
+            "version": "1.0.0",
+            "db": {
+                "uri": "",
+                "version": ""
+            },
+            "result": {
+                "metadata": {
+                    "attestation_text": "This document attests that the project mentioned above has been scanned and triaged by OpenRefactory while looking for specific CWEs mentioned above. A total of 0 bugs/vulnerabilities was found.",
+                    "language": "python",
+                    "sponsorship_text": "This work is done by the security researchers from OpenRefactory and is supported by the 'Open Source Security Foundation's Project 'Alpha-Omega'. 'Alpha-Omega' is a project partnering with open source software project maintainers to systematically find new, as-yet-undiscovered vulnerabilities in open source code- and get them fixed to improve global software supply chain security.",
+                    "target_cwes": [
+                        "CWE-22",
+                        "CWE-78",
+                        "CWE-79",
+                        "CWE-89",
+                        "CWE-90",
+                        "CWE-95",
+                        "CWE-113",
+                        "CWE-117",
+                        "CWE-200",
+                        "CWE-259",
+                        "CWE-283",
+                        "CWE-295",
+                        "CWE-297",
+                        "CWE-319",
+                        "CWE-327",
+                        "CWE-329",
+                        "CWE-346",
+                        "CWE-347",
+                        "CWE-409",
+                        "CWE-502",
+                        "CWE-521",
+                        "CWE 547",
+                        "CWE-601",
+                        "CWE-611",
+                        "CWE-614",
+                        "CWE-643",
+                        "CWE-732",
+                        "CWE-759",
+                        "CWE-760",
+                        "CWE-827",
+                        "CWE-918",
+                        "CWE-1004",
+                        "CWE-1333",
+                        "CWE-1240"
+                    ]
+                },
+                "results": [],
+                "source": {
+                    "name": "pg8000",
+                    "pypi_uri": "https://pypi.org/project/pg8000",
+                    "pypi_version_uri": "https://pypi.org/project/pg8000/1.30.1",
+                    "repo_uri": "https://github.com/tlocke/pg8000",
+                    "repo_version_uri": "https://github.com/tlocke/pg8000/tree/1.30.1",
+                    "version": "1.30.1"
+                }
+            }
+        },
+        "metadata": {
+            "scanStartedOn": "2024-04-10T02:46:57.298Z",
+            "scanFinishedOn": "2024-04-30T08:32:02.415Z"
+        }
+    }
+}
