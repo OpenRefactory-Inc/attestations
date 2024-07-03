@@ -1,0 +1,84 @@
+{
+    "_type": "https://in-toto.io/Statement/v0.1",
+    "predicateType": "https://cosign.sigstore.dev/attestation/vuln/v1",
+    "subject": [
+        {
+            "name": "v0.12.14.zip",
+            "digest": {
+                "sha256": "e2678224c1cfa2d8614c41988ca2ce0ea24dabc31769bc22c8102ba99ab05a6c"
+            }
+        }
+    ],
+    "predicate": {
+        "invocation": {
+            "parameters": [],
+            "uri": "",
+            "event_id": "",
+            "builder.id": ""
+        },
+        "scanner": {
+            "uri": "https://www.openrefactory.com/technology/",
+            "version": "1.0.0",
+            "db": {
+                "uri": "",
+                "version": ""
+            },
+            "result": {
+                "metadata": {
+                    "attestation_text": "This document attests that the project mentioned above has been scanned and triaged by OpenRefactory while looking for specific CWEs mentioned above. A total of 0 bugs/vulnerabilities was found.",
+                    "language": "python",
+                    "sponsorship_text": "This work is done by the security researchers from OpenRefactory and is supported by the 'Open Source Security Foundation's Project 'Alpha-Omega'. 'Alpha-Omega' is a project partnering with open source software project maintainers to systematically find new, as-yet-undiscovered vulnerabilities in open source code- and get them fixed to improve global software supply chain security.",
+                    "target_cwes": [
+                        "CWE-22",
+                        "CWE-78",
+                        "CWE-79",
+                        "CWE-89",
+                        "CWE-90",
+                        "CWE-95",
+                        "CWE-113",
+                        "CWE-117",
+                        "CWE-200",
+                        "CWE-259",
+                        "CWE-283",
+                        "CWE-295",
+                        "CWE-297",
+                        "CWE-319",
+                        "CWE-327",
+                        "CWE-329",
+                        "CWE-346",
+                        "CWE-347",
+                        "CWE-409",
+                        "CWE-502",
+                        "CWE-521",
+                        "CWE 547",
+                        "CWE-601",
+                        "CWE-611",
+                        "CWE-614",
+                        "CWE-643",
+                        "CWE-732",
+                        "CWE-759",
+                        "CWE-760",
+                        "CWE-827",
+                        "CWE-918",
+                        "CWE-1004",
+                        "CWE-1333",
+                        "CWE-1240"
+                    ]
+                },
+                "results": [],
+                "source": {
+                    "name": "cachecontrol",
+                    "pypi_uri": "https://pypi.org/project/cachecontrol",
+                    "pypi_version_uri": "https://pypi.org/project/cachecontrol/0.12.14",
+                    "repo_uri": "https://github.com/psf/cachecontrol",
+                    "repo_version_uri": "https://github.com/psf/cachecontrol/tree/v0.12.14",
+                    "version": "0.12.14"
+                }
+            }
+        },
+        "metadata": {
+            "scanStartedOn": "2024-07-03T14:30:18.739Z",
+            "scanFinishedOn": "2024-07-03T14:33:09.14Z"
+        }
+    }
+}
